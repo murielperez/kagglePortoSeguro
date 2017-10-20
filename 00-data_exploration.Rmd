@@ -1,0 +1,14 @@
+---
+title: "Data Exploration"
+output: html_notebook
+---
+
+
+First we import the data
+```{r, echo = FALSE, include = FALSE}
+library(tidyverse)
+library(readr)
+data <- read_csv("./data/train.csv")
+data
+```
+
